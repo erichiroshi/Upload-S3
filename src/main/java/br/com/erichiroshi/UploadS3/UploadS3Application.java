@@ -21,7 +21,6 @@ public class UploadS3Application implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 
 		s3Service.uploadFile("D:\\temp\\café.jpg");
-		
-		s3Service.listObjects();
+
 	}
 }
